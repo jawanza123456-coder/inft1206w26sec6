@@ -8,59 +8,114 @@ Description: Assignment 2 Part 1 – Multimedia and embedding exercise.
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+  <meta charset="utf-8">
+  <title>Creepy crawlies!</title>
+  <link href="css/style.css" rel="stylesheet">
 
-   <h1>Creepy-crawlies splash page!</h1>
+  </head>
 
-   <video autoplay muted loop preload="auto">
-  <source src="bug_video_640.mp4" type="video/mp4">
-  Your browser does not support the video element.
-</video>
+<body>
 
-<figure>
-  <img src="beetle.png"
-       alt="Close-up photograph of a beetle showing its hardened protective forewings."
-       width="250"
-       height="180">
-  <figcaption>A beetle displaying its distinctive armored wing covers (elytra).</figcaption>
-</figure>
+<header>
 
-<figure>
-  <img src="true_bug.jpg"
-       alt="True bug resting on a plant stem with visible piercing mouthparts."
-       width="250"
-       height="180">
-  <figcaption>A true bug using its specialized piercing-sucking mouthparts.</figcaption>
-</figure>
+  <nav>
+    <ul>
+      <li><a href="#beetles">🪲 Beetles</a></li>
+      <li><a href="#true_bugs">🐞 True Bugs</a></li>
+      <li><a href="#butterflies_moths">🦋 Butterflies and moths</a></li>
+      <li><a href="#flies_mosquitos">🦟 Flies and mosquitos</a></li>
+      <li><a href="#bees_wasps_ants">🐝 Bees, wasps, and ants</a></li>
+      <li><a href="#spiders">🕷 Spiders</a></li>
+    </ul>
+  </nav>
 
-<figure>
-  <img src="butterfly.jpg"
-       alt="Colorful butterfly with patterned wings spread open."
-       width="250"
-       height="180">
-  <figcaption>A butterfly showing its scaled, vividly patterned wings.</figcaption>
-</figure>
+  <section>
+    <h1>Creepy-crawlies splash page!</h1>
 
-<figure>
-  <img src="mosquito.jpg"
-       alt="Mosquito perched on a surface with visible proboscis."
-       width="250"
-       height="180">
-  <figcaption>A mosquito preparing to feed using its specialized mouthparts.</figcaption>
-</figure>
+     <video autoplay muted loop preload="auto">
+      <source src="media/bug_video_640.mp4" type="video/mp4">
+      Your browser does not support the video element.
+    </video>
 
-<figure>
-  <img src="bee.jpg"
-       alt="Bee collecting nectar from a flower."
-       width="250"
-       height="180">
-  <figcaption>A bee gathering nectar while pollinating a flower.</figcaption>
-</figure>
+    <p>
+      In casual language, people use "bugs" to mean all sorts of small
+      creepy-crawlies: insects, spiders, etc. However, "Bugs" (true bugs)
+      are actually just one order of insects (Hemiptera). This page
+      provides a summary of the main classes or groups of
+      creepy-crawlies.
+    </p>
+  </section>
+</header>
 
-<figure>
-  <img src="spider.jpg"
-       alt="Spider resting on its web with legs extended."
-       width="250"
-       height="180">
-  <figcaption>A spider positioned on its intricate silk web.</figcaption>
-</figure>
+<main>
+
+<section id="beetles">
+  <h2>🪲 Beetles (Coleoptera)</h2>
+
+  <figure>
+    <img src="media/beetle.png"
+         alt="Close-up photograph of a beetle showing its hardened protective forewings."
+         width="250" height="180">
+    <figcaption>A beetle displaying its distinctive armored wing covers (elytra).</figcaption>
+  </figure>
+</section>
+
+<section id="true_bugs">
+  <h2>🐞 True Bugs (Hemiptera)</h2>
+
+  <figure>
+    <img src="media/true_bug.jpg"
+         alt="True bug resting on a plant stem with visible piercing mouthparts."
+         width="250" height="180">
+    <figcaption>A true bug using its specialized piercing-sucking mouthparts.</figcaption>
+  </figure>
+</section>
+
+<section id="butterflies_moths">
+  <h2>🦋 Butterflies & Moths (Lepidoptera)</h2>
+
+  <figure>
+    <img src="media/butterfly.jpg"
+         alt="Colorful butterfly with patterned wings spread open."
+         width="250" height="180">
+    <figcaption>A butterfly showing its scaled, vividly patterned wings.</figcaption>
+  </figure>
+</section>
+
+<section id="flies_mosquitos">
+  <h2>🦟 Flies & Mosquitoes (Diptera)</h2>
+
+  <figure>
+    <img src="media/mosquito.jpg"
+         alt="Mosquito perched on a surface with visible proboscis."
+         width="250" height="180">
+    <figcaption>A mosquito preparing to feed using its specialized mouthparts.</figcaption>
+  </figure>
+</section>
+
+<section id="bees_wasps_ants">
+  <h2>🐝 Bees, Wasps, Ants (Hymenoptera)</h2>
+
+  <figure>
+    <img src="media/bee.jpg"
+         alt="Bee collecting nectar from a flower."
+         width="250" height="180">
+    <figcaption>A bee gathering nectar while pollinating a flower.</figcaption>
+  </figure>
+</section>
+
+<section id="spiders">
+  <h2>🕷 Spiders (Araneae)</h2>
+
+  <figure>
+    <img src="media/spider.jpg"
+         alt="Spider resting on its web with legs extended."
+         width="250" height="180">
+    <figcaption>A spider positioned on its intricate silk web.</figcaption>
+  </figure>
+</section>
+
+</main>
+
+</body>
+</html>
