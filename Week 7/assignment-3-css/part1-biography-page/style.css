@@ -53,3 +53,9 @@ a {
 a:hover {
     text-decoration: none;
 }
+
+/* Center content and improve readability */
+body {
+    max-width: 800px;
+    margin: 40px auto;
+}
