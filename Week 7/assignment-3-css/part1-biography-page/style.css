@@ -6,12 +6,12 @@ Description: Stylesheet for biography page assignment. This file controls layout
 typography, colors, spacing, and visual presentation of the biography page.
 */
 
-
 /* Page body styling */
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f4f4;
-    margin: 40px;
+    margin: 40px auto;
+    max-width: 800px;
 }
 
 
@@ -44,26 +44,18 @@ ul {
 }
 
 
+/* Contact list additional styling */
+.contact-info {
+    border-radius: 10px;
+}
+
+
 /* Link styling */
 a {
     color: #fb6542;
 }
 
-
-a:hover {
-    text-decoration: none;
-}
-
-/* Center content and improve readability */
-body {
-    max-width: 800px;
-    margin: 40px auto;
-}
-
-.contact-info {
-    border-radius: 10px;
-}
-
 a:hover {
     color: #375e97;
+    text-decoration: none;
 }
