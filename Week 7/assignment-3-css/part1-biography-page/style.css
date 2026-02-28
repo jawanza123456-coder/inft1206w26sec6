@@ -63,3 +63,7 @@ body {
 .contact-info {
     border-radius: 10px;
 }
+
+a:hover {
+    color: #375e97;
+}
